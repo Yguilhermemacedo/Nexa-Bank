@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha conta - Nexa Bank</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container-top">
+            <div class="conta">
+                <img src="" alt="" class="img-perfil">
+                <p>Olá Guilherme.</p>
+            </div>
+            <button id="btn-sair"><i class='bx bx-exit' ></i> Sair</button>
+        </div>
+        <div class="container-saldo">
+            <h3 class="tittle-saldo">Seu saldo</h3>
+            <span class="saldo">0,00</span>
+        </div>
+    </header>
+    <main>
+        <div class="container-operacoes">
+            <div class="container-1">
+                <h2>Operações</h2>
+                <div class="operacoes">
+                    <div id="box">
+                        <button id="btn-transferir"><i class='bx bx-transfer-alt'></i></button>
+                        <p>TED</p>
+                    </div>
+                    <div id="box">
+                        <button id="btn-depositar"><i class='bx bx-wallet-alt' ></i></button>
+                        <p>Depositar</p>
+                    </div>
+                    <div id="box">
+                        <button id="btn-sacar"><i class='bx bx-money-withdraw'></i></button>
+                        <p>Saque</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-2">
+                <h2>Contatos de transferências</h2>
+                <div class="add-contato">
+                    <ul class="contatos">
+                        <li></li>
+                    </ul>
+
+                    <div class="botao-contato">
+                        <button id="btn-add-contato">Criar novo contato <i class='bx bx-user-plus'></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-3">
+                <h2>Cartões</h2>
+                <div class="criar-cartao">
+                    <div class="container-cartoes">
+                        <button id="btn-criar-cartao"><i class='bx bx-credit-card'></i> Criar cartão</button>
+                        <ul class="cartoes">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="movimentacoes">
+            <h2>Históricos</h2>
+            <div class="container-historicos">
+                <div class="container-transferencias">
+                    <h3>Transferências</h3>
+                    <div class="transferencias">
+                        <div class="transferencia">
+
+                            <div class="descricao">
+                                <h4>Descrição</h4>                                
+                            </div>
+
+                            <div class="data">
+                                <h4>Data</h4>
+                            </div>
+
+                            <div class="valor">
+                                <h4>Valor</h4>
+                            </div>
+
+                        </div>
+                    </div>                    
+                </div>
+                <div class="container-transferencias">
+                    <h3>Depositos</h3>
+                    <div class="transferencias">
+                        <div class="transferencia">
+
+                            <div class="descricao">
+                                <h4>Descrição</h4>                                
+                            </div>
+
+                            <div class="data">
+                                <h4>Data</h4>
+                            </div>
+
+                            <div class="valor">
+                                <h4>Valor</h4>
+                            </div>
+
+                        </div>
+                    </div>                    
+                </div>
+                <div class="container-transferencias">
+                    <h3>Saques</h3>
+                    <div class="transferencias">
+                        <div class="transferencia">
+
+                            <div class="descricao">
+                                <h4>Descrição</h4>                                
+                            </div>
+
+                            <div class="data">
+                                <h4>Data</h4>
+                            </div>
+
+                            <div class="valor">
+                                <h4>Valor</h4>
+                            </div>
+
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

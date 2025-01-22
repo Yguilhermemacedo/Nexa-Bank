@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #F3F2EB;
+}
+
+header{
+    height: 181px;
+    width: 100%;
+    padding: 10px;
+    background-color: #201f1f;
+}
+
+.container-top{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conta{
+    color: #fff;
+    font-size: 24px;
+}
+
+#btn-sair{
+    height: 60px;
+    width: 110px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    gap: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.tittle-saldo{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.saldo{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+}
+
+main{
+    height: 100vh;
+}
+
+.container-operacoes{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-1 > h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.operacoes{
+    height: 127px;
+    width: 360px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.301);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box{
+    height: auto;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#box > p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #767676;
+}
+
+#btn-transferir{
+    height: 60px;
+    width: 70px;
+    background-color: #1D1C1C;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 32px;
+    transition: all 0.3s ease-in-out;
+}
+
+#btn-transferir:hover{
+    background-color: #1d1c1ce3;
+    
+}
+
+#btn-depositar{
+    height: 60px;
+    width: 70px;
+    background-color: #B0C130;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 32px;
+    transition: all 0.3s ease-in-out;
+}
+
+#btn-depositar:hover{
+    background-color: #869227f5;
+}
+
+#btn-sacar{
+    height: 60px;
+    width: 70px;
+    background-color: #009172;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 32px;
+    transition: all 0.3s ease-in-out;
+}
+
+#btn-sacar:hover{
+    background-color: #00755c;
+}
+
+.container-2 > h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.add-contato{
+    height: 127px;
+    width: 390px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.301);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+#btn-add-contato{
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+#btn-add-contato:hover{
+    background-color: #e0e0e0;
+}
+
+.container-3 > h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.criar-cartao, #btn-criar-cartao{
+    height: 127px;
+    width: 390px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.301);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
